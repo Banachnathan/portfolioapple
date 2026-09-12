@@ -312,4 +312,5 @@ footer {
   align-items: center;
   gap: 2rem;
   animation: fadeIn 0.8s ease-out;
+  margin-top: 2rem;
 }
