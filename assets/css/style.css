@@ -153,6 +153,11 @@ body {
   display: block;
 }
 
+.project-link:hover{
+  transform: scale(1.05);
+  transition: 1s ease;
+}
+
 .project {
   background-color: #F2F2F2;
   border: 1px solid #2e3192;
