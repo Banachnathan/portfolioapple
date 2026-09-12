@@ -114,13 +114,20 @@ body {
 
 #home-btns a {
   background-color: #2e3192;
-  padding: 4px;
+  padding: 8px 12px;
   border-radius: .5rem;
   text-decoration: none;
   color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+}
+
+#home-btns a img {
+  width: 20px;
+  height: 20px;
 }
 
 #home-btns a:hover {
@@ -131,6 +138,11 @@ body {
 #home-icons {
   display: flex;
   gap: .25rem;
+}
+
+#home-icons a img {
+  width: 32px;
+  height: 32px;
 }
 
 #projects {
